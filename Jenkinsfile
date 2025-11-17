@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Install dependencies') {
       steps {
-        sh 'npm ci'
+        sh 'npm install'
       }
     }
     stage('Test auth-service') {
