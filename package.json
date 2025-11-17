@@ -1,0 +1,13 @@
+{
+  "name": "krazybus",
+  "private": true,
+  "workspaces": [
+    "auth-service",
+    "route-service"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "test": "npm run test --workspaces",
+    "build": "npm run build --workspaces"
+  }
+}
